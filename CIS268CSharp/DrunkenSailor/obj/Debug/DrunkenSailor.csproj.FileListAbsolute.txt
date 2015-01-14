@@ -1,0 +1,6 @@
+d:\documents\visual studio 2013\Projects\DrunkenSailor\DrunkenSailor\bin\Debug\DrunkenSailor.exe.config
+D:\Documents\Visual Studio 2013\Projects\DrunkenSailor\DrunkenSailor\bin\Debug\DrunkenSailor.exe
+D:\Documents\Visual Studio 2013\Projects\DrunkenSailor\DrunkenSailor\bin\Debug\DrunkenSailor.pdb
+D:\Documents\Visual Studio 2013\Projects\DrunkenSailor\DrunkenSailor\obj\Debug\DrunkenSailor.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\DrunkenSailor\DrunkenSailor\obj\Debug\DrunkenSailor.exe
+D:\Documents\Visual Studio 2013\Projects\DrunkenSailor\DrunkenSailor\obj\Debug\DrunkenSailor.pdb
