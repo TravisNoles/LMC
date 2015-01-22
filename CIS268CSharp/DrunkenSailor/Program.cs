@@ -14,41 +14,47 @@ namespace DrunkenSailor
             // When "DrunkenSailor" object reaches the right side of the console screen, end the program.
             // Draw a grid on the screen, and track the path that the "DrunkenSailor" takes.
 
-            int cols = 20;
-            int rows = 20;
-            int[,] Grid = new int[cols, rows];
+
+            //Setup and variable intializer
+            Random rnd = new Random(); //Random Number initializer
+            int rndPiratePlacer = rnd.Next(1, 20);
+            int rndCounter;
+            int cols = 40;
+            int rows = 40;
+            String[,] Grid = new String[cols, rows];
+
+            // Randomly place drunken pirate on left side before displaying to the user.
+            Grid[rndPiratePlacer, 0] = "!";
 
 
-            // Setup Grid for displaying to user (using a nested for-loop)
-            int index;
-
-            for (int i = 0; i < cols; i++)
+            int i;
+            // Setup Grid for displaying to user (using a nested for-loop)  and randomly move pirate to the right side
+            for (i = 0; i < cols; i++)
             {
                 for (int j = 0; j < rows; j++)
                 {
-                    Grid[i,j] = 5;
+                    Grid[i, j] = "%";
+                    Grid[rndPiratePlacer, 0] = "!"; //pirate object
                 }
             }
 
-            //Print Grid to user.
-            for (int i = 0; i < cols; i++)
+
+            //Print Grid to user
+            for (i = 0; i < cols; i++)
             {
                 for (int j = 0; j < rows; j++)
                 {
-                    Console.WriteLine(Grid[i, j]);
+                    Console.Write(Grid[i, j]);
                 }
             }
 
-           
-
-
-
-            Console.ReadLine();
 
 
 
 
 
+
+            Console.ReadLine(); //Pause and wait for user input before exiting
         }
     }
 }
