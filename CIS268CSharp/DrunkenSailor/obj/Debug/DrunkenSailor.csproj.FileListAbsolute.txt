@@ -10,3 +10,9 @@ C:\Users\Travis\Source\Repos\CSharpClass\CIS268CSharp\DrunkenSailor\obj\Debug\Dr
 C:\Users\Travis\Source\Repos\CSharpClass\CIS268CSharp\DrunkenSailor\bin\Debug\DrunkenSailor.exe
 C:\Users\Travis\Source\Repos\CSharpClass\CIS268CSharp\DrunkenSailor\bin\Debug\DrunkenSailor.pdb
 C:\Users\Travis\Source\Repos\CSharpClass\CIS268CSharp\DrunkenSailor\obj\Debug\DrunkenSailor.csprojResolveAssemblyReference.cache
+C:\Users\Travis\Source\Repos\LMC\CIS268CSharp\DrunkenSailor\bin\Debug\DrunkenSailor.exe.config
+C:\Users\Travis\Source\Repos\LMC\CIS268CSharp\DrunkenSailor\obj\Debug\DrunkenSailor.exe
+C:\Users\Travis\Source\Repos\LMC\CIS268CSharp\DrunkenSailor\obj\Debug\DrunkenSailor.pdb
+C:\Users\Travis\Source\Repos\LMC\CIS268CSharp\DrunkenSailor\bin\Debug\DrunkenSailor.exe
+C:\Users\Travis\Source\Repos\LMC\CIS268CSharp\DrunkenSailor\bin\Debug\DrunkenSailor.pdb
+C:\Users\Travis\Source\Repos\LMC\CIS268CSharp\DrunkenSailor\obj\Debug\DrunkenSailor.csprojResolveAssemblyReference.cache

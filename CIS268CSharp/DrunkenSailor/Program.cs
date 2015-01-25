@@ -16,16 +16,23 @@ namespace DrunkenSailor
 
 
             //Setup and variable intializer
-            Random rnd = new Random(); //Random Number initializer
-            int rndPiratePlacer = rnd.Next(1, 20);
+ 
             int rndCounter;
             int cols = 40;
             int rows = 40;
             String[,] Grid = new String[cols, rows];
 
+
+            //Random Number Generator
+            Random rnd = new Random(); //Random Number initializer
+            Random rnd2 = new Random(); //Random Number initializer
+            int rndPiratePlacer = rnd.Next(0, rows);
+            int rndPiratePlacer2 = rnd2.Next(0, rows);
+
+
+
             // Randomly place drunken pirate on left side before displaying to the user.
             Grid[rndPiratePlacer, 0] = "!";
-
 
             int i;
             // Setup Grid for displaying to user (using a nested for-loop)  and randomly move pirate to the right side
@@ -33,21 +40,13 @@ namespace DrunkenSailor
             {
                 for (int j = 0; j < rows; j++)
                 {
-                    Grid[i, j] = "%";
-                    Grid[rndPiratePlacer, 0] = "!"; //pirate object
-                }
-            }
-
-
-            //Print Grid to user
-            for (i = 0; i < cols; i++)
-            {
-                for (int j = 0; j < rows; j++)
-                {
+                    Grid[i, j] = "%";//print grid
+                    rndPiratePlacer = rnd.Next(0, rows);//gen random number
+                    Grid[rndPiratePlacer, rndPiratePlacer2] = "!"; //Move it to a random place.
                     Console.Write(Grid[i, j]);
                 }
-            }
 
+            }
 
 
 
