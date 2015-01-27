@@ -1,0 +1,4 @@
+﻿# UserCredentialFile
+# username password "group-name password-reset-question" "password-reset-answer" jobid
+admin password
+user password
