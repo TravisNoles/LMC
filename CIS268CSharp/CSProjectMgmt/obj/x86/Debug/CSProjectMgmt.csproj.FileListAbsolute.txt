@@ -1,0 +1,12 @@
+\\lmc.edu\cis\studentfolders\tnole414\documents\visual studio 2010\Projects\CSProjectMgmt\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.frmPasswordReset.resources
+\\lmc.edu\cis\studentfolders\tnole414\documents\visual studio 2010\Projects\CSProjectMgmt\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.frmLogin.resources
+\\lmc.edu\cis\studentfolders\tnole414\documents\visual studio 2010\Projects\CSProjectMgmt\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.Properties.Resources.resources
+\\lmc.edu\cis\studentfolders\tnole414\documents\visual studio 2010\Projects\CSProjectMgmt\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.csproj.GenerateResource.Cache
+\\lmc.edu\cis\studentfolders\tnole414\documents\visual studio 2010\Projects\CSProjectMgmt\CSProjectMgmt\bin\Debug\CSProjectMgmt.exe
+\\lmc.edu\cis\studentfolders\tnole414\documents\visual studio 2010\Projects\CSProjectMgmt\CSProjectMgmt\bin\Debug\CSProjectMgmt.pdb
+\\lmc.edu\cis\studentfolders\tnole414\documents\visual studio 2010\Projects\CSProjectMgmt\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.exe
+\\lmc.edu\cis\studentfolders\tnole414\documents\visual studio 2010\Projects\CSProjectMgmt\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.pdb
+C:\Users\Travis\Documents\Visual Studio 2013\Projects\CSProjectMgmt\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.exe
+C:\Users\Travis\Documents\Visual Studio 2013\Projects\CSProjectMgmt\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.pdb
+C:\Users\Travis\Source\Repos\LMC\CIS268CSharp\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.exe
+C:\Users\Travis\Source\Repos\LMC\CIS268CSharp\CSProjectMgmt\obj\x86\Debug\CSProjectMgmt.pdb
