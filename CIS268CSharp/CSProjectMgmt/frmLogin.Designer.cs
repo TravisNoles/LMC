@@ -31,7 +31,7 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblTimeSheetTitle = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cmd_login = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -61,15 +61,15 @@
             this.lblTimeSheetTitle.TabIndex = 4;
             this.lblTimeSheetTitle.Text = "Time Sheet Login";
             // 
-            // button1
+            // cmd_login
             // 
-            this.button1.Location = new System.Drawing.Point(16, 117);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.cmd_login.Location = new System.Drawing.Point(16, 117);
+            this.cmd_login.Name = "cmd_login";
+            this.cmd_login.Size = new System.Drawing.Size(75, 23);
+            this.cmd_login.TabIndex = 5;
+            this.cmd_login.Text = "Login";
+            this.cmd_login.UseVisualStyleBackColor = true;
+            this.cmd_login.Click += new System.EventHandler(this.cmdLogin_Click);
             // 
             // button2
             // 
@@ -86,7 +86,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(216, 185);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cmd_login);
             this.Controls.Add(this.lblTimeSheetTitle);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
@@ -104,7 +104,7 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblTimeSheetTitle;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button cmd_login;
         private System.Windows.Forms.Button button2;
     }
 }
