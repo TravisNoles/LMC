@@ -14,9 +14,9 @@ namespace DrunkenSailor
             // When "DrunkenSailor" object reaches the right side of the console screen, end the program.
             // Draw a grid on the screen, and track the path that the "DrunkenSailor" takes.
 
-
             //Setup and variable intializer
- 
+
+
             int rndCounter;
             int cols = 40;
             int rows = 40;
@@ -28,8 +28,6 @@ namespace DrunkenSailor
             Random rnd2 = new Random(); //Random Number initializer
             int rndPiratePlacer = rnd.Next(0, rows);
             int rndPiratePlacer2 = rnd2.Next(0, rows);
-
-
 
             // Randomly place drunken pirate on left side before displaying to the user.
             Grid[rndPiratePlacer, 0] = "!";
