@@ -48,9 +48,12 @@ namespace CSProjectMgmt
         // 1) Read username password from filedatabase (usercred.txt)
         // 2) Check credentials w/ file.
         // 3) IF correct goto main form.
+
+
+
         private void cmdLogin_Click(object sender, EventArgs e)
         {
-            String currentLine;
+                                                                                                    String currentLine;
             String userCredentialsToCheck = txtUsername.Text + " " + txtPassword.Text; // store to 
 
             // Read the file
