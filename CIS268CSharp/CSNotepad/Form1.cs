@@ -26,5 +26,21 @@ namespace CSNotepad
         {
             // Anytime text box / text file is changed..
         }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // if open_document_changed = false
+            // then goto newdocument()
+            // create new document
+            // else
+            // display "Do you want to discard all changes?"
+
+
+
+
+
+
+
+        }
     }
 }
