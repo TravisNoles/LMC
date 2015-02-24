@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CSNotepad
 {
-    public partial class frm_Notepad : Form
+    public partial class frmNotepad : Form
     {
-        public frm_Notepad()
+        public frmNotepad()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace CSNotepad
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            // Anytime text box / text file is changed..
+            int NoteTabProperties[] = {1};
         }
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
@@ -34,9 +34,6 @@ namespace CSNotepad
             // create new document
             // else
             // display "Do you want to discard all changes?"
-
-
-
 
 
 

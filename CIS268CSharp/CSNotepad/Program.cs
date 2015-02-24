@@ -16,7 +16,7 @@ namespace CSNotepad
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Notepad());
+            Application.Run(new frmNotepad());
         }
     }
 }
