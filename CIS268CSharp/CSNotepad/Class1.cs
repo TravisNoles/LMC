@@ -9,8 +9,11 @@ namespace CSNotepad
     class NoteProperties
     {
         // Properties of Note
+        String[] TabNames = { "default" };
+        String[] FileNames = { "default.txt" };
         Boolean[] NoteModified = { false }; // Whether the note has been modified.
-        int[] Changed = { 022315 };
+        String[] LastChangedTimeStamp = { "022315120000" };
+        
 
 
     }

@@ -24,7 +24,7 @@ namespace CSNotepad
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            int NoteTabProperties[] = {1};
+            int[] NoteTabProperties = {1};
         }
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
@@ -38,6 +38,16 @@ namespace CSNotepad
 
 
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sidebarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NPSidebar.Visible = false;
         }
     }
 }
